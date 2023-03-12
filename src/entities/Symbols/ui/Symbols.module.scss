@@ -1,0 +1,14 @@
+.Symbols {
+  background-color: var(--white-color);
+  box-shadow: var(--shadow-md);
+  width: fit-content;
+  display: flex;
+  padding: 4px;
+  border-radius: 6px;
+  gap: 8px;
+
+  .button {
+    width: 52px;
+    height: 48px;
+  }
+}

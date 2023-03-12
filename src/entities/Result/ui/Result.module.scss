@@ -1,0 +1,11 @@
+.Result {
+  padding: 4px;
+  box-shadow: var(--shadow-md);
+  border-radius: 6px;
+  .button {
+    background-color: var(--blue-color);
+    width: 232px;
+    height: 64px;
+    color: var(--white-color);
+  }
+}

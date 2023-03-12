@@ -1,0 +1,24 @@
+.Numbers {
+  display: grid;
+  grid-template-areas:
+  '. . .'
+  '. . .'
+  '. . .'
+  'zero zero .';
+  grid-template-columns: repeat(3, 72px);
+  gap: 8px;
+  padding: 4px;
+  box-shadow: var(--shadow-md);
+  width: fit-content;
+  border-radius: 6px;
+
+  .button {
+    width: 72px;
+    height: 48px;
+  }
+
+  .zero {
+    grid-area: zero;
+    width: 152px;
+  }
+}

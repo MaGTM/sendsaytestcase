@@ -1,0 +1,32 @@
+.RuntimeSwitcher {
+  grid-area: switcher;
+  display: flex;
+  background-color: var(--background-gray-color);
+  align-items: center;
+  padding: 1px;
+  border-radius: 6px;
+
+  .switcherElement {
+    display: flex;
+    border-radius: 6px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: var(--switcher-font-color);
+    gap: 8px;
+    cursor: pointer;
+    svg {
+      stroke: var(--switcher-font-color);
+    }
+
+    &.active {
+      background-color: var(--white-color);
+      border: 1px solid var(--border-color);
+
+      svg {
+        stroke: var(--blue-color);
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.MainPage {
+  display: grid;
+  grid-template-areas:
+  '. switcher'
+  'sidebar calculator';
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 38px 1fr;
+  column-gap: 56px;
+  row-gap: 30px;
+}
